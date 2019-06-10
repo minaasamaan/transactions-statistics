@@ -37,7 +37,7 @@ Defined by the interface `TransactionsManager` and implemented by `TransactionsM
  * Operating in O(1) as a time & memory complexity, due to the fact that regardless of how many transactions we get,
       we accumulate them to 60 different buckets depends on which second of the last minute they belong to.
  * Statistics' values are `java.math.BigDecimal` and always contain exactly two decimal places and use
-      `HALF_ROUND_UP` rounding. eg: 10.345 is returned as 10.35, 10.8 is returned as 10.80.
+      `HALF_ROUND_UP` rounding.
       
 
 
